@@ -1,0 +1,28 @@
+.shadow-navbar {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.7s ease;
+}
+
+.shadow-navbar:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.active:hover {
+    color: white !important;
+}
+
+.foto-profile {
+    width: 312px; 
+    height: 312px;
+}
+
+.square-circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
